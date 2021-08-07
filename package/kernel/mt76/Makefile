@@ -9,8 +9,9 @@ PKG_LICENSE_FILES:=
 PKG_SOURCE_URL:=https://github.com/Byte-bite/mt76
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_DATE:=
-PKG_SOURCE_VERSION:=b51fd4fa9a21d14eff9954ce5bc6a20e4767b429
+PKG_SOURCE_VERSION:=f1d2d5cb936bfcdb82a6a5137015b5c08ef9b0bd
 PKG_MIRROR_HASH:=
+
 PKG_MAINTAINER:=
 PKG_BUILD_PARALLEL:=1
 
@@ -443,4 +444,3 @@ $(eval $(call KernelPackage,mt7915e))
 $(eval $(call KernelPackage,mt7921e))
 $(eval $(call KernelPackage,mt76))
 $(eval $(call BuildPackage,mt76-test))
-
